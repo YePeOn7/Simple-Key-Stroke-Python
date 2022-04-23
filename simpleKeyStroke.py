@@ -15,7 +15,6 @@ settings = termios.tcgetattr(sys.stdin)
 while 1:
     key = getKey(None)
     print(key+"\r")
-    # print("kkkkkkk")
 
     if (key == '\x03'):
         break
